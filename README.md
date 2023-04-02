@@ -1,8 +1,8 @@
-# Clone the Laravel repository
+# Clone the bookstore-project repository
 git clone https://github.com/suryajayantara/bookstore-project.git
 
 # Navigate to the cloned repository
-cd laravel
+cd bookstore-project
 
 # Install the dependencies using Composer
 composer install
