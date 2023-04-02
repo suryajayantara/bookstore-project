@@ -1,22 +1,22 @@
-# Clone the bookstore-project repository
+# 1. Clone the bookstore-project repository
 git clone https://github.com/suryajayantara/bookstore-project.git
 
-# Navigate to the cloned repository
+# 2. Navigate to the cloned repository
 cd bookstore-project
 
-# Install the dependencies using Composer
+# 3. Install the dependencies using Composer
 composer install
 
-# Create a .env file by copying the .env.example file
+# 4. Create a .env file by copying the .env.example file
 cp .env.example .env
 
-# Generate an application key
+# 5. Generate an application key
 php artisan key:generate
 
-# Configure your database settings in the .env file
+# 6. Configure your database settings in the .env file
 
-# Run the migration to set up the database schema and running seeders
+# 7. Run the migration to set up the database schema and running seeders
 php artisan migrate --seed
 
-# Start the development server
+# 8. Start the development server
 php artisan serve
